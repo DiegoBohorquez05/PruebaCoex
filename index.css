@@ -73,7 +73,7 @@ body {
   background-color:  rgb(0, 119, 255);
   border-radius: 10px;
   border: none;
-  margin-left: 60%;
+  margin-left: 2%;
   cursor: pointer;
   width: 80px;
   color: white;
@@ -83,6 +83,13 @@ body {
   justify-content: center;
   text-align: center;
   margin-top: 10%;
+}
+
+#p2{
+  justify-content: center;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 18px;
 }
 
 #cerrar {
@@ -244,6 +251,54 @@ botonCrear
   border-radius: 5px;
 }
 
+#inputnombre{
+  width: 90%;
+  height: 25px;
+  border-radius: 5px;
+}
+
+#inputnit{
+  width: 90%;
+  height: 25px;
+  border-radius: 5px;
+}
+
+#inputapellido{
+  width: 90%;
+  height: 25px;
+  border-radius: 5px;
+}
+
+#inputdireccion{
+  width: 90%;
+  height: 25px;
+  border-radius: 5px;
+}
+
+#inputtelefono{
+  width: 90%;
+  height: 25px;
+  border-radius: 5px;
+}
+
+#inputcupoTot{
+  width: 90%;
+  height: 25px;
+  border-radius: 5px;
+}
+
+#inputdispo{
+  width: 90%;
+  height: 25px;
+  border-radius: 5px;
+}
+
+#inputdiasgar{
+  width: 90%;
+  height: 25px;
+  border-radius: 5px;
+}
+
 .centro{
   text-align: center;
   justify-content: center;
@@ -266,4 +321,15 @@ botonCrear
 
 .numeroCredi{
   border: solid 1px;
+}
+
+#botonMostrar{
+  display: flex;
+  background-color:  rgb(0, 119, 255);
+  border-radius: 10px;
+  border: none;
+  margin-left: 50%;
+  cursor: pointer;
+  width: 80px;
+  color: white;
 }
