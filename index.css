@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #88ebff4f;
+}
+
+.container {
+  display: flex;
+}
+
+.menu {
+  margin-top: 5%;
+  margin-left: 20px;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.datos {
+  margin-top: 60px;
+  text-align: center;
+}
+
+#imagenAdmin {
+  width: 40%;
+  border-radius: 50%;
+  margin-top: 40%;
+}
+
+.icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+#botonInicio {
+  display: flex;
+  background-color: white;
+  border: none;
+  margin-left: 2%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#botonCliente {
+  display: flex;
+  background-color: white;
+  border: none;
+  margin-left: 2%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#botonCreditos {
+  display: flex;
+  background-color: white;
+  border: none;
+  margin-left: 2%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#botonCrear{
+  display: flex;
+  background-color:  rgb(0, 119, 255);
+  border-radius: 10px;
+  border: none;
+  margin-left: 60%;
+  cursor: pointer;
+  width: 80px;
+  color: white;
+}
+
+#p1{
+  justify-content: center;
+  text-align: center;
+  margin-top: 10%;
+}
+
+#cerrar {
+  margin-top: 70%;
+  margin-bottom: 20px;
+  background-color: rgb(0, 119, 255);
+  border: none;
+  border-radius: 5px;
+  width: 120px;
+  height: 30px;
+  color: white;
+}
+
+.cliente {
+  width: 80%;
+  margin-left: 6%;
+  margin-top: 5%;
+  margin-right: 8%;
+}
+
+.titulo {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  height: 60px;
+  border-radius: 10px;
+  color: rgb(0, 119, 255);
+}
+
+#titulo1 {
+  padding-top: 10px;
+}
+
+.informacion {
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+}
+
+.tarjeta1 {
+  width: 250px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.cuerpo{
+  display: flex;
+}
+
+#imagenCredito{
+    margin-left: 50%;
+    width: 2rem;
+    color: rgb(81, 162, 255);
+}
+
+.tarjeta2 {
+  margin-left: 20px;
+  width: 250px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+botonCrear
+
+#imagenNuvCli{
+    color: rgb(81, 162, 255);
+}
+
+#inputBusqueda{
+  height: 25px;
+  border: none;
+  border-radius: 10px;
+}
+
+#botonBusqueda{
+  color: rgb(81, 162, 255);
+  margin-top: 5px;
+}
+
+.inputBuscar{
+  background-color: white;
+  border-radius: 10px;
+}
+
+.buscador{
+  display: flex;
+  margin-top: 5%;
+}
+
+
+#boton1{
+  margin-left: 65%;
+  margin-top: 5px;
+}
+
+.botonNuevoCliete{
+  height: 25px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: rgb(81, 162, 255);
+  cursor: pointer;
+}
+
+.tablaInformacion{
+  border: solid 1px;
+  margin-top: 20px;
+}
+
+#tabla{
+  width: 100%;
+}
+
+.informacion1{
+  margin-top: 5%;
+}
+
+#atras{
+  height: 25px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: rgb(81, 162, 255);
+  cursor: pointer;
+}
+
+#titulo2{
+  margin-top: 60px;
+}
+
+.formulario{
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.izquierda{
+  text-align: center;
+  justify-content: center;
+  width: 33.3%;
+}
+
+#Ciudad{
+  width: 90%;
+  height: 25px;
+}
+
+#estado{
+  width: 90%;
+  height: 25px;
+}
+
+#input{
+  width: 90%;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.centro{
+  text-align: center;
+  justify-content: center;
+  width: 33.3%;
+}
+
+.derecha{
+  text-align: center;
+  justify-content: center;
+  width: 33.3%;
+}
+
+#guardarCliente{
+  background-color: rgb(81, 162, 255);
+  color: white;
+  height: 25px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.numeroCredi{
+  border: solid 1px;
+}
